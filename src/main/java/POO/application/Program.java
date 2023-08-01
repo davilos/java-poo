@@ -24,7 +24,19 @@ public class Program {
         System.out.print("Quantity: ");
         product.quantity = scanner.nextInt();
 
-        System.out.println(product);
+        System.out.println("\nProduct data: " + product);
+
+        System.out.print("\nEnter the number of products to be added in stock: ");
+        int quantity = scanner.nextInt();
+        product.addProducts(quantity);
+
+        System.out.println("\nUpdated data: " + product);
+
+        System.out.print("\nEnter the number of products to be removed in stock: ");
+        quantity = scanner.nextInt();
+        product.removeProducts(quantity);
+
+        System.out.println("\nUpdated data: " + product);
 
         scanner.close();
     }
