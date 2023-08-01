@@ -1,6 +1,6 @@
 package POO.application;
 
-import POO.Exercises.Rectangle;
+import POO.entities.Rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;
