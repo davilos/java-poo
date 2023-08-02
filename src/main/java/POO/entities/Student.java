@@ -12,9 +12,10 @@ public class Student {
         double finalGrade = firstGrade + secondGrade + thirdGrade;
 
         if (finalGrade >= 60.00) {
-            return "FINAL GRADE = " + finalGrade + "\nPASS";
+            return "FINAL GRADE = " + String.format("%.2f", finalGrade) + "\nPASS";
         } else {
-            return "FINAL GRADE = " + finalGrade + "\nFAILED" + "\nMISSING" + (60.00 - finalGrade) + "POINTS";
+            return "FINAL GRADE = " + String.format("%.2f", finalGrade) + "\nFAILED" + "\nMISSING " +
+                    (60.00 - finalGrade) + " POINTS";
         }
     }
 }
