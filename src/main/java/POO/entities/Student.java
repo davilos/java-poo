@@ -2,6 +2,8 @@ package POO.entities;
 
 public class Student {
 
+    public String name;
+
     public double firstGrade;
     public double secondGrade;
     public double thirdGrade;
