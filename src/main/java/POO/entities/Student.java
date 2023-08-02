@@ -8,10 +8,8 @@ public class Student {
     public double secondGrade;
     public double thirdGrade;
 
-    public double finalGrade;
-
     public String getFinalGrade() {
-        finalGrade = firstGrade + secondGrade + thirdGrade;
+        double finalGrade = firstGrade + secondGrade + thirdGrade;
 
         if (finalGrade >= 60.00) {
             return "FINAL GRADE = " + finalGrade + "\nPASS";
