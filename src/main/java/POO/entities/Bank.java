@@ -43,7 +43,7 @@ public class Bank {
 
     public void withdrawValue(double value) {
         if (value <= deposit) {
-            deposit = deposit - value - tax;
+            deposit -= value + tax;
         } else {
             System.out.println("You don't have all that amount in your account!");
         }
