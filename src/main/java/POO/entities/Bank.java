@@ -15,7 +15,7 @@ public class Bank {
     public Bank(int accountNumber, String accountName, double initialDeposit) {
         this.accountNumber = accountNumber;
         this.accountName = accountName;
-        this.deposit = initialDeposit;
+        depositValue(initialDeposit);
     }
 
     public int getAccountNumber() {
