@@ -7,9 +7,6 @@ public class Bank {
     double deposit;
     public static final double tax = 5.00;
 
-    public Bank() {
-    }
-
     public Bank(int accountNumber, String accountName) {
         this.accountNumber = accountNumber;
         this.accountName = accountName;
