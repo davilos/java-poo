@@ -2,7 +2,7 @@ package POO.entities;
 
 public class Bank {
 
-    private int accountNumber;
+    private final int accountNumber;
     public String accountName;
     double deposit;
     public static final double tax = 5.00;
